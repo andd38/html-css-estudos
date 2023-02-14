@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.box1{
+    display: inline-block;
+    background-color: green;
+    text-align: center;
+    width: 2350px;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+
+.box2{
+    display:flexbox;
+    background-color: blue;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 1000px;
+}
+.box3{
+    display: inline-block;
+    background-color: red;
+    text-align: center;
+    width: 2350px;
+    height: 500px;
+    border-radius: 20px;
+}
