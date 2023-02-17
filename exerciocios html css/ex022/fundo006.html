@@ -9,13 +9,19 @@
 
         body{
             height: 100vh;
-            background-color: black;
+           /* background-color: black;
             background-image: url('wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
-            background-size:contain;
-
-
+            background-size:cover;
+            background-attachment: fixed;
+            */
+            /*
+            COLOR>image>position>repeat>[size]>attachment
+            */
+            background: black url('wallpaper002.jpg') center center no-repeat fixed;
+            
+            background-size: cover;
         }
         /* 
 contain, auto, cover
