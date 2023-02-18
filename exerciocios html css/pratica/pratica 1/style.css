@@ -1,28 +1,52 @@
 @charset "utf-8";
 
 .box1{
-    display: inline-block;
-    background-color: green;
-    text-align: center;
-    width: 2350px;
-    height: 200px;
-    border-radius: 20px;
     
+    background-color: rgb(15, 71, 109);
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    height: 500px;
+    width: 500px; 
+    border-radius: 15px;  
+    box-shadow: 2px 5px 5px black;
+    filter: opacity(75%);
+   
 }
 
-.box2{
-    display:flexbox;
-    background-color: blue;
-    text-align: center;
-    width: 500px;
-    height: 500px;
-    border-radius: 1000px;
+.login{
+    font-size: 25px;
+    font-family:calibri;   
+    float: left;
+    padding-left: 60px;
+    font-weight: 400;
+    color:white;
+
+
+
 }
-.box3{
-    display: inline-block;
-    background-color: red;
-    text-align: center;
-    width: 2350px;
-    height: 500px;
-    border-radius: 20px;
+.espaço{
+    height: 30px;
+    width: 400px;
+    font-size: 25px;
+    background-color: rgb(159, 182, 231);
+    border-radius: 8px;
+    margin-right: 50px;
+}
+
+h1{
+    font-size: 45px;
+    font-family: Verdana;
+    color: rgb(205, 228, 253);
+    text-align: left;
+    padding-left:50px ;
+    padding-top: 15px;
+}
+
+body{
+    background-image: url('imagen\ gif.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width:100% ;
 }
