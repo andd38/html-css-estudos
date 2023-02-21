@@ -13,14 +13,23 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td,th{
             border: 1px solid black;
             padding: 10px;
         }
         thead,tfoot{
-            background-color: grey;
+            background-color: #383838;
             color:white;
+        }
+        thead > tr >th{
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+        tbody > tr:nth-child(2n-1)/*even ou odd*/{
+            background-color:lightgray;
         }
         .num{
             text-align: right;
@@ -30,6 +39,9 @@
             font-weight: bold;
             padding: 10px;
             background-color: lightgray;
+        }
+        p{
+            font-size: 30px;
         }
     </style>
 </head>
@@ -109,5 +121,7 @@
         </tfoot>
 
     </table>
+    
+  
 </body>
 </html>
