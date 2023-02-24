@@ -6,25 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+        
         body{
             background-color: black;
         }
-        span{
+        ul>li>a{
             color: white;
-            text-align: center;
-            border :1px solid white;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            margin: auto;
+            text-decoration: none;
+            line-height: 50px;
+            font-family: 'poppins';
+            font-size: 20px;
+            margin: 40px;
+            margin-top: 5px;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline;
+            float: right;
             
 
         }
-        span:hover{
+        ul>li>a:hover{
             background-color: aqua;
-            box-shadow: 2px 2px 5px 5px aqua;
+            box-shadow: 0px 0px 30px 0px aqua;
+            color:black
+            
+        }
+        img{
+            float: left;
+            margin:10px;
+        }
+        .logo{
+            float:right;
+
         }
     </style>
 </head>
 <body>
-    <span>android</span>
+    <img src="https://i2.wp.com/multarte.com.br/wp-content/uploads/2018/10/logo-whatsapp-png-transparente17.png?resize=150%2C150&ssl=1" alt="logo" width="40px">
+
+    <img src="instagram.png" alt="insta" width="40px">
+    <img src="github (1).png" alt="github" width="40px">
+    <img src="text.png" class ="logo"alt="logo" width="100px">
+    <br>
+    <ul type="none">
+        
+        <li><a href="#">android</a></li>
+        <li><a href="#">Iphone</a></li>
+        <li><a href="#">Apple</a></li>
+        <LI><a href="#">Windows</a></LI>
+    </ul>
 </body>
 </html>
