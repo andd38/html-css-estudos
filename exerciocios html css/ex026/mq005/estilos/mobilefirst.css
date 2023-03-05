@@ -1,0 +1,27 @@
+@charset "utf-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+header{
+    margin-bottom: 25px;
+    height: 320px;
+    
+}
+nav{
+    text-align: center;
+    display: grid;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+main{
+    background-color: rgb(252, 252, 252);
+    font-size: 20px;
+    width: 450px;
+    height: 1200px; 
+
+
+}
