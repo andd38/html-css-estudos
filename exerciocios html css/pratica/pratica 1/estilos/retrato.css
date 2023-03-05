@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+header{
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+nav{
+    background-color: red;
+    margin-bottom: 10px;
+    display: block  ;
+    height: 110px;
+   
+
+}
+nav>a{
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    display: grid;
+    border-bottom: 1px solid white;
+    
+}
