@@ -1,0 +1,8 @@
+@charset "utf8";
+
+@media screen and(min-width:768px) {
+    #itens{
+        display: none;
+    }
+    
+}

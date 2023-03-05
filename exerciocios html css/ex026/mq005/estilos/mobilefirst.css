@@ -14,7 +14,18 @@ nav{
     display: grid;
 }
 #itens{
-    display: none;
+    display: grid;
+}
+span{
+    padding: 10px;
+    color: white;
+    background-color: rgb(51, 51, 51);
+    display: block;
+}
+span:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
 }
 
 h1{
